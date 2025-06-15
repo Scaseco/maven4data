@@ -28,6 +28,7 @@ mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:/tmp/my-local-
 ## Notes
 
 * Using `sshfs` a remote folder can be mounted locally and deployed to.
+
 ```bash
 sshfs user@remote-server:/some/maven-repo
 
@@ -36,5 +37,5 @@ mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:./maven-repo
 
 ## References
 
-* https://stackoverflow.com/questions/12549742/maven-deploy-to-relative-directory-path
+* [https://stackoverflow.com/questions/12549742/maven-deploy-to-relative-directory-path](https://stackoverflow.com/questions/12549742/maven-deploy-to-relative-directory-path)
 
