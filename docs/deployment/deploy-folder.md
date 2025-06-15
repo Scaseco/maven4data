@@ -19,7 +19,7 @@ Maven can out of the box manage artifacts in a folder and deploy to it.
 
 ## Approach
 
-Use the `mvn deploy` with the `-DaltDeploymentRepository` option to specify where to deploy.
+Use the `mvn deploy` with the `-DaltDeploymentRepository` option to specify where to deploy. Note, that the path after `file:` may be a relative one!
 
 ```bash
 mvn deploy -DaltDeploymentRepository=snapshot-repo::default::file:/tmp/my-local-snapshots-dir
